@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <style type="text/css" media="all">
+       * {
+  box-sizing: border-box;
+}
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav-bar>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav-bar>ul>li>a {
+  background: lightgrey;
+  
+}
+
+.nav-bar>ul>li>a:hover {
+  background: #173459;
+  color: #f8f9f9;
+  
+}
+
+.nav-bar .active {
+  background: #173459;
+  color: #f8f9f9;
+}
+
+.nav-bar li {
+  border-bottom: 1px solid #333;
+}
+
+.nav-bar li:last-child {
+  border: none;
+}
+
+.nav-bar {
+  background: lightgrey;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  
+}
+.nav-bar>ul>li{
+  float: left;
+  width:25%;
+  text-align: center;
+}
+.nav-bar li{
+  float: left;
+  border-right: 1px solid #333;
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #333;
+  
+}
+.nav-bar li{
+  border-bottom:none;
+}
+.content {
+  margin-top: 50px;
+}
+.content > div{
+  padding: 15px;
+}
+
+   </style>
+</head>
+<body>
+   <div class="nav-bar">
+      <ul>
+         <li><a class="active" href="index.html"> Home </a></li>
+         <li><a href="#"> About </a></li>
+         <li><a href="#"> Articles </a></li>
+         <li><a href="#"> Gallery </a></li>
+      </ul>
+   </div>
+   <div class="content">
+     <p> This is my just a simple nav bar. </p>
+     <div style="background: green; height: 2000px"> This is a dummy text to make the page scrollable: Lorem ipsum dolor sit amet. </div>
+   </div>
+</body>
+</html>
